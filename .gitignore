@@ -1,9 +1,10 @@
-# See https://www.dartlang.org/guides/libraries/private-files
-
-# Files and directories created by pub
+# Dart/Flutter specific
 .dart_tool/
 .packages
 build/
+.pub-cache/
+.pub/
+
 # If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
 
@@ -23,5 +24,29 @@ doc/api/
 *.js.deps
 *.js.map
 
+# Flutter specific
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Visual Studio Code specific
+.vscode/           # Visual Studio Code settings and workspace files
+*.code-workspace   # Visual Studio Code workspace file
+
+# macOS specific files to ignore
+.DS_Store
+
+# Android
+*.iml
+.idea/             # Android Studio settings
+.gradle/           # Gradle build directory
+/local.properties # Android SDK path
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/caches
+/.idea/modules.xml
+/.gradle/
+/captures/
+
+# iOS
+Pods/
+Podfile.lock
